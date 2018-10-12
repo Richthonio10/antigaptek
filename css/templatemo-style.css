@@ -6,36 +6,41 @@ http://www.templatemo.com/tm-485-rainbow
 
 -----------------------------*/
 body {	
-	color: #64572a;
+	color:black;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 22px;
 	font-weight: 300;
 }
 
 .tm-bg-img-header {
-	background-image: url('../img/rainbow-header-bg.jpg');
+	background-image: url('../img/social-media.jpg');
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: contain;
 }
+
+/*
+.tm-bg-img-header:hover{
+	background-image: url('../img/papers.co-ho98-snow-girl-snsd-taeyeon-black-bw-kpop-29-wallpaper.jpg');
+}*/
+
+#buat:hover{
+	background-image: url('../img/bts-young-forever-wallpaper.png');
+}
+
+
 
 .tm-bg-img-content {
 	background-image: url('../img/rainbow-content-bg.jpg');
 	background-repeat: repeat;
 }
 
-a { color: #196d92;  }
+a { color: white; background-color:#909090; }
 a, button { transition: all 0.3s ease; }
 button:focus { outline: none; }
-a:hover,
-a:focus,
-.nav-link.active {
-	color: #64572a;
-	text-decoration: none;
-	outline: none;
-}
 
-.container { max-width: 1040px; }
+
+.container { max-width: 1040px; margin-top: 70px;}
 
 /* Sticky header 
 --------------------------*/
@@ -66,7 +71,7 @@ a:focus,
 		top: 0;
 		font-size: 0.6em;
 		height: 54px;		
-		background-color: rgba(235, 222, 180, 0.86);
+		background-color: rgb(206, 196, 197);
 	}
 }
 
@@ -85,7 +90,7 @@ a:focus,
 /* 1. Site header 
 --------------------------*/
 .tm-site-title {
-    color: #fffeff;
+    color: black;
     text-shadow: 0px 2px 2px rgb(146, 109, 46);
     font-family: 'Times New Roman', Georgia, sans-serif;
     font-size: 4.4rem;
@@ -398,13 +403,14 @@ a:focus,
 /* 5. Contact
 -----------------*/
 .tm-section-subtitle-contact {
+	margin-top: 10px;
 	margin-bottom: 0;
 	line-height: 1.8;
     font-size: 1.5rem;
 }
 
 .tm-section-contact-form {
-	padding-top: 5rem;
+	padding-top: 10px;
 	background-position: center 100px;
 	background-size: cover;
 }
@@ -442,7 +448,7 @@ a:focus,
 
 .tm-contact-form {
 	margin: 0 auto;
-	max-width: 840px;
+	max-width: 800px;
 }
 
 .form-control {
@@ -470,9 +476,9 @@ textarea.form-control {
 
 .tm-social-icon-link-brown {
 	background-color: transparent;
-	color: #655623;
+	color: #909090;
     padding: 8px;
-    border: 1px solid #917D33;
+    border: 1px solid #909090;
     border-radius: 50%;
     margin-right: 2%;
     width: 52px;
@@ -498,7 +504,7 @@ textarea.form-control {
     border-radius: 0;
     background-color: #E3D4A9;
     border-color: #917D33;
-    color: #655623;
+    color:#909090; 
 }
 
 .tm-btn-brown-square:hover,
@@ -508,19 +514,19 @@ textarea.form-control {
 }
 
 .form-control::-webkit-input-placeholder {
-   color: #655623;
+   color: #909090;
 }
 
 .form-control:-moz-placeholder { /* Firefox 18- */
-   color: #655623;  
+   color: #909090;
 }
 
 .form-control::-moz-placeholder {  /* Firefox 19+ */
-   color: #655623;  
+   color: #909090;  
 }
 
 .form-control:-ms-input-placeholder {  
-   color: #655623;  
+   color: #909090;  
 }
 
 /* 5. contact 
@@ -546,7 +552,7 @@ textarea.form-control {
 --------------*/
 .tm-footer { margin-top: 15rem; }
 .tm-copyright-text {
-	color: #655623;
+	color: #909090;
 	font-size: 1.3rem;
 	padding-top: 3%;
 	padding-bottom: 3%;
@@ -616,7 +622,8 @@ textarea.form-control {
 
 .tm-bg-purple-1 { background-color: #ccccff; }
 .tm-bg-purple-2 { background-color: #ddddff; }
-.tm-bg-purple-3 { background-color: #eaeaff; }
+.tm-bg-purple-3 { background-color: #eaeaff;
+ }
 
 .tm-bg-purple-1,
 .tm-bg-purple-2,
